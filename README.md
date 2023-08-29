@@ -1,15 +1,16 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To create an environment to check whether the child plays or stay at home according to the weather conditions.
 
 ## PROBLEM STATEMENT:
 
 ### Problem Description
-Write your answer here
+Children looking for playing outdoor games. Action is based on the weather conditions, if it is a sunny day there is a high chance of playing or if it is a cloudy day, they simply stay at home.
 
 ### State Space
-Write your answer here
+{C,W,S} -> {0,1,2}
+where,
 
 ### Sample State
 Write your answer here
@@ -27,10 +28,26 @@ Write your answer here
 Write your answer here
 
 ## PYTHON REPRESENTATION:
-Write your code here
+```
+P = {
+    0:{
+        0: [(1.0,0,0.0,True)],
+        1: [(1.0,0,0.0,True)]
+    },
+    1:{
+        0: [(1.0,0,0.0,True)],
+        1: [(1.0,2,1.0,True)]
+    },
+    2:{
+        0: [(1.0,2,0.0,True)],
+        1: [(1.0,2,0.0,True)]
+    }
+}
+```
 
 ## OUTPUT:
-Write your Python output here
+![image](https://github.com/Kavya-Bollineni22/mdp-representation/assets/75235813/44902110-586a-4c12-b000-49951a4a5bf9)
+
 
 ## RESULT:
 Write your output here
