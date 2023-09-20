@@ -50,5 +50,6 @@ P = {
 
 
 ## RESULT:
-Write your output here
+Thus, an environment to check whether the child plays or stay at home is created according to the weather conditions.
+
 
